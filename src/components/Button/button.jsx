@@ -1,12 +1,16 @@
 import './button.css';
 
 export default function Button(props) {
+  const { type, onClick, children } = props;
+
+  const style = type ? `button ${type}` : 'button';
+
   return (
     <button
-      className="button"
-      onClick={props.onClick}
+      className={style}
+      onClick={onClick}
     >
-      {props.children}
-    </button>  
+      {children}
+    </button> 
   )
 }
