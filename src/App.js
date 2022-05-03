@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './components/Button/button';
+import Header from './components/Header/Header';
 
 function App() {
   const handleClickOne = () => {
@@ -16,17 +17,21 @@ function App() {
 
   return (
     <div className="App">
-      <Button type="white" onClick={handleClickOne}>
-        Button 1
-      </Button>
+      <Header />
 
-      <Button type="black" onClick={handleClickTwo}>
-        Button 2
-      </Button>
+      <div>
+        <Button type="white" onClick={handleClickOne}>
+          Button 1
+        </Button>
 
-      <Button onClick={handleClickThree}>
-        Button 3
-      </Button>
+        <Button type="black" onClick={handleClickTwo}>
+          Button 2
+        </Button>
+
+        <Button onClick={handleClickThree}>
+          Button 3
+        </Button>
+      </div>
     </div>
   );
 }
