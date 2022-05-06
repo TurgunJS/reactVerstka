@@ -43,7 +43,7 @@ return (
         title="JERSAY "
         imageLogo={logoNbaNikeBlack}
         titleEnd="NBA"
-        descriptionTitleWhite="whichever nba team your support, get your jersey here today."
+        descriptionTitleWhite="whichever nba team your suport, get your jersey here today."
         bagroundImg={whiteBackground}
       />
 
