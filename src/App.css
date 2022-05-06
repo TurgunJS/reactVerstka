@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.bestseller{
+  text-transform: uppercase;
+  color: red;
+}
+
+.first{
+  color: #FCBF05;
+}
+
+.second{
+  color: rgb(102, 30, 210);
+}

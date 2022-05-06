@@ -1,12 +1,48 @@
-.header {
+
+.logoImgHeader{
   display: flex;
-  /* justify-content: space-between; */
-}
-.header img {
-  width: 20px;
-  height: 20px;
+  justify-content: space-between;
+  padding: 2% 8%;
 }
 
-.header div {
-  margin: 0px 6px;
+.logo img{
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
 }
+
+
+.headerImgs img{
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.linksWords a{
+  margin: 0 20px;
+  cursor: pointer;
+  font-weight: 600; 
+  text-decoration: none;
+  color: black;
+  
+}
+
+.titleNBA{
+  display: flex;
+  padding: 0.5% 8%;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.hrOne{
+  margin: 0% 8%;
+  height: 3px;
+  background-color: black;
+
+
+}
+
+/* .BigTitle div{
+  background: url(/);
+} */

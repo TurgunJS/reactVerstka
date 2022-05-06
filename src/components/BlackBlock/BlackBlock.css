@@ -1,0 +1,60 @@
+.black_container{
+    color: aliceblue;
+    background-color: rgb(27, 27, 27);
+    margin: 0%;
+}
+
+.black_container hr{
+  background-color: rgb(242, 242, 242);
+  height: 2px;
+  margin: 0% 8%;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+}
+
+.h1BlackTitle{
+    display: flex;
+    padding-left: 8%;
+    padding-top: 8%;
+    margin: 0%;
+}
+
+.h1BlackTitleColor{
+    margin: 0%;
+    font-size: 65px;
+}
+
+.h1BlackSubTitle{
+    margin: 0%;
+    display: flex;
+    padding: 1% 8%;  
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.h1BlackSubTitleTwo{
+    display: flex;
+    padding: 1% 8%;
+    margin: 0%; 
+    width: 800px; 
+    text-align: left;
+}
+
+.imageBackgraund{
+    background-color: aliceblue;
+    width: 472px;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImageClass{
+    display: flex;
+    justify-content: end;
+    margin-right: 8%;
+    padding-bottom: 6%;
+}
