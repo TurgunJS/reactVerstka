@@ -1,11 +1,11 @@
 #containerForms{
     width: 300px;
-    background-color: rgba(105, 105, 195, 0.864);
+    background-color: rgba(60, 114, 223, 0.864);
     display: flex;
     justify-content: center;
     padding: 2%;
     border: 0px;
-    margin-top: 4%;
+    margin-top: 1%;
     border-radius: 6px;
 }
 
@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(https://fadeawayworld.net/.image/t_share/MTg3MzQxNTUzNTY2NDkyNTU4/273478143_3173396906266006_5350557571927570901_n.jpg);
+    background: url(https://st-1.akipress.org/st_runews/.storage/limon3/images/FEBRUARY2021/cbd3b33ecacb6b4731a36260e2931f68.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
