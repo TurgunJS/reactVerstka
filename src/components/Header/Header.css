@@ -43,6 +43,21 @@
 
 }
 
-/* .BigTitle div{
-  background: url(/);
-} */
+.headerHrefOne:hover{
+color: rgb(210, 4, 4);
+}
+
+.headerHrefTwo:hover{
+  color: rgb(210, 4, 4);
+  }
+
+  .headerHrefThree:hover{
+    color: rgb(210, 4, 4);
+    }
+
+    .headerHrefFour:hover{
+      color: rgb(210, 4, 4);
+      }
+      .headerHrefFive:hover{
+        color: rgb(210, 4, 4);
+        }

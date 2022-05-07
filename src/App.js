@@ -1,45 +1,57 @@
-import logoNbaNike from '../src/components/Image/bugiTwo.png';
-import logoNbaNikeBlack from '../src/components/Image/bugi.png';
-import whiteBackground from '../src/components/Image/Pict.png';
-import whiteTwoImg from '../src/components/Image/bgWhite.png';
-import whiteSlider from '../src/components/Image/Slider.png';
-import whiteDavid from '../src/components/Image/david.png';
-import whiteJohn from '../src/components/Image/john.png';
-import whiteJordan from '../src/components/Image/jordan.png';
+// import logoNbaNike from '../src/components/Image/bugiTwo.png';
+// import logoNbaNikeBlack from '../src/components/Image/bugi.png';
+// import whiteBackground from '../src/components/Image/Pict.png';
+// import whiteTwoImg from '../src/components/Image/bgWhite.png';
+// import whiteSlider from '../src/components/Image/Slider.png';
+// import whiteDavid from '../src/components/Image/david.png';
+// import whiteJohn from '../src/components/Image/john.png';
+// import whiteJordan from '../src/components/Image/jordan.png';
+
+// import BlackBlock from './components/BlackBlock/BlackBlock';
+// import BlackBlockTitle from './components/BlackBlock/BlackBlockTitle';
+// import WhiteBlock from './components/WhiteBlock/WhiteBlock';
+// import WhiteTwo from './components/WhiteTwo/WhiteTwo';
+// import Line from './components/Line/Line';
+// import WhiteThree from './components/WhiteThree/WhiteThree';
 
 import './App.css';
-import BlackBlock from './components/BlackBlock/BlackBlock';
-import BlackBlockTitle from './components/BlackBlock/BlackBlockTitle';
 import Header from './components/Header/Header';
-import WhiteBlock from './components/WhiteBlock/WhiteBlock';
-import WhiteTwo from './components/WhiteTwo/WhiteTwo';
-import Line from './components/Line/Line';
-import WhiteThree from './components/WhiteThree/WhiteThree';
+
+import { Routes, Route, Link } from "react-router-dom";
+import Home from './components/Pages/Home/Home';
+import About from './components/Pages/About/About';
+import Sign from './components/Pages/Sign/Sign';
 
 function App() {
 
 
-const bestSellerProducts = [
-      {
-        name: 'LeBron James Lakers City Edition', 
-        image: 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/884b3cb9-1716-45d3-a7ba-289fae30a14d/%D0%B4%D0%B6%D0%B5%D1%80%D1%81%D0%B8-%D0%BD%D0%B1%D0%B0-swingman-lakers-icon-edition-2020-hhgqSg.png',
-        description: 'Nike NBA Swingman Jersey',
-        price: '$290',
-      },
-      {
-        name: 'LeBron James Lakers City Edition', 
-        image: 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/884b3cb9-1716-45d3-a7ba-289fae30a14d/%D0%B4%D0%B6%D0%B5%D1%80%D1%81%D0%B8-%D0%BD%D0%B1%D0%B0-swingman-lakers-icon-edition-2020-hhgqSg.png',
-        description: 'Nike NBA Swingman Jersey',
-        price: '$290',
-      },
-    ]
+// const bestSellerProducts = [
+//       {
+//         name: 'LeBron James Lakers City Edition', 
+//         image: 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/884b3cb9-1716-45d3-a7ba-289fae30a14d/%D0%B4%D0%B6%D0%B5%D1%80%D1%81%D0%B8-%D0%BD%D0%B1%D0%B0-swingman-lakers-icon-edition-2020-hhgqSg.png',
+//         description: 'Nike NBA Swingman Jersey',
+//         price: '$290',
+//       },
+//       {
+//         name: 'LeBron James Lakers City Edition', 
+//         image: 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/884b3cb9-1716-45d3-a7ba-289fae30a14d/%D0%B4%D0%B6%D0%B5%D1%80%D1%81%D0%B8-%D0%BD%D0%B1%D0%B0-swingman-lakers-icon-edition-2020-hhgqSg.png',
+//         description: 'Nike NBA Swingman Jersey',
+//         price: '$290',
+//       },
+//     ]
 
 return (
     <div className="App">
 
       <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="sign" element={<Sign />} />
+        <Route path="*" element={<Home /> } />
+      </Routes>
 
-      <WhiteBlock
+      {/* <WhiteBlock
         title="JERSAY "
         imageLogo={logoNbaNikeBlack}
         titleEnd="NBA"
@@ -104,7 +116,7 @@ return (
           podTitleOne="Nike Traning Club"
           podTitleTwo="Home workouts & fitness plans"
       />     
-
+ */}
     </div>
   );
 }
